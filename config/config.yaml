@@ -1,0 +1,14 @@
+
+app:
+  name: "Talkster" 
+  version: "1.0.0"    
+
+
+api:
+  key: "${API_KEY}"  
+
+
+logging:
+  level: "INFO"       
+  log_directory: "logs"  
+  log_file_format: "[%(asctime)s] %(name)s - %(levelname)s - %(message)s"  
